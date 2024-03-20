@@ -1,0 +1,145 @@
+/* ----------------------------------FormComponent------------------------- */
+
+.content-containerForm{
+    width: 600px;
+    height: 600px;
+    /* padding: 30px; */
+    border: 2px solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-main{
+    border: 2px solid red;
+    padding: 5px;
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-title, .container-select, .container-description, .container-checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+    
+}
+
+.title-content{
+    width: 95%;
+    padding-inline: 10px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    outline: none;
+}
+
+.select-content{
+    width: 100%;
+    padding-inline: 10px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    outline: none;
+}
+
+.description-content{
+    width: 95%;
+    padding-inline: 10px;
+    height: 100px;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+
+.checkbox-content{
+    width: 55px;
+    height: 20px;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+}
+
+.button-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-form{
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ----------------------------------CardComponent------------------------- */
+.content-containerCard{
+    border: 2px solid yellow;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+}
+
+.content-card{
+    width: 35rem;
+    height: 17rem;
+    padding: 10px;
+    margin:  10px;
+    border: 2px solid red;
+    border-radius: 30px;
+
+}
+.content-body{
+    border: 2px solid rebeccapurple;
+    height: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    padding: 5px;
+}
+
+.content-second{
+    border: 1px solid rgb(255, 174, 0);
+    margin: 3px;
+    width: 34rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priority{
+    border: 1px solid;
+    border-radius: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(117, 117, 117);
+    width: 3rem;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.btn-delete{
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.726);
+    width: 6.2rem;
+    height: 2.5rem;
+    border-style: none;
+    outline: none;
+}
